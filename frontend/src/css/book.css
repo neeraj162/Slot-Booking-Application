@@ -1,0 +1,31 @@
+.book{
+    background-color: #cfd8da;
+    min-height: 100vh;
+}
+.book_title{
+    text-align: center;
+    color: #6380EB;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.book_button{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 250px;
+    height: 3em;
+    background-color: #6380EB;
+    color: #ffffff;
+    flex-grow: 1;
+    /* margin-left: 25px; */
+    padding: 1em 1.8125em;
+    border-radius: 20px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}

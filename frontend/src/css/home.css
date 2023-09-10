@@ -1,0 +1,29 @@
+.home{
+    background-image: url('../img/Home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.home_body{
+    padding-top: 320px;
+    padding-left: 200px;
+}
+.home_button{
+    display: inline-block;
+    width: 350px;
+    height: 60px;
+    background-color: #F2F6FB;
+    color: rgb(72, 66, 66);
+    flex-grow: 1;
+    /* margin-left: 25px; */
+    padding: 1em 1.8125em;
+    border-radius: 20px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.login_comp {
+    padding-top: 250px;
+    padding-left: 350px
+}
+.login_body {
+    background-image: url("../img/AppointEase.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.login_title{
+    padding-top: 1.5em;
+    color: #373D3B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.login_form{
+    display: flex;
+    justify-content: center;
+}
+.login_email{
+    /* font-family: 'Roboto', sans-serif; */
+    margin-top: 5rem;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0.69em 1em;
+    background-color: #FCF3DD;
+    color: black;
+    border: none;
+    /* padding: 1em 1.8125em; */
+    border-radius: 20px;
+    width: 25rem;
+}
+.login_email_button{
+    display: inline-block;
+    background-color: #6380EB;
+    color: white;
+    flex-grow: 1;
+    margin-left: 25px;
+    padding: 1em 1.8125em;
+    border-radius: 20px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.login_email_button:disabled{
+    color: rgb(201, 200, 200);
+}
+.login_otp_title{
+    margin-bottom: 2.5rem;
+    color: #373D3B;
+    font-size: 20px;
+}
+.instructions {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: #000;
+    /* color: #fff; */
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.login_otp_form{
+    padding-top: 300px;
+    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_otp_button{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 200px;
+    height: 3em;
+    background-color: #6380EB;
+    color: #ffffff;
+    flex-grow: 1;
+    /* margin-left: 25px; */
+    padding: 1em 1.8125em;
+    border-radius: 20px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.login_back_button{
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: transparent;
+    color: black;
+    flex-grow: 1;
+    padding: 1em 1.8125em;
+    border-radius: 4px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
